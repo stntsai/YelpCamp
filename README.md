@@ -33,3 +33,10 @@ v4:
 
     add comment routes to app.js
     refactor new/get/post comment routes and pages from those of campgrounds
+
+
+v5:
+
+    update campground show page attributes
+    update comment show info: add author/ comment time
+    apply css to header.ejs
