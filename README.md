@@ -19,3 +19,11 @@ v2:
 	mongodb connection
     campgrounds schema
     create campgrounds logic in app.js
+
+
+v3:
+
+    update campgrounds show page to include comment area
+    adding commentSchema into models
+    create comments logic in app.js
+    place seeds() to eliminate and create campgrounds every time
