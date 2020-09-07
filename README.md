@@ -1,4 +1,4 @@
-# YelpCamp
+# [YelpCamp](https://warm-retreat-17606.herokuapp.com/)
 YelpCamp
 
 
@@ -27,3 +27,9 @@ v3:
     adding commentSchema into models
     create comments logic in app.js
     place seeds() to eliminate and create campgrounds every time
+
+
+v4: 
+
+    add comment routes to app.js
+    refactor new/get/post comment routes and pages from those of campgrounds
