@@ -1,0 +1,22 @@
+<link rel="stylesheet" href="/stylesheets/login.css">
+<title>YelpCamp - Login</title>
+<div class="row object">
+    <h1 style="text-align: center">Login</h1>
+    <p id="register">
+        Haven't sign up yet? Click <a href="/register">here to sign up!</a>
+    </p>
+    <div style="width:30%; margin: 25px auto">
+        <form action="/login" method="POST">
+            <div class="form-group">
+                <input class="form-control" type="text" name="username" placeholder="username">
+            </div>
+            <div class="form-group">
+                <input class="form-control" type="password" name="password" placeholder="password">
+            </div>
+            <div class="form-group">
+                <button class="btn btn-xl btn-primary btn-block">Login</button>
+            </div>
+        </form>
+        <a id="back" href="/campgrounds">Go back</a>
+    </div>
+</div>
