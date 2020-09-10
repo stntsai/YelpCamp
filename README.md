@@ -1,5 +1,8 @@
 # [YelpCamp](https://warm-retreat-17606.herokuapp.com/)
-YelpCamp
+A website where users can create accounts and log in to create, modify, and delete new campgrounds as well as those activities for reviews.  
+
+
+
 
 ## v13: Google Maps and Others
 ### Google Maps
@@ -111,3 +114,8 @@ YelpCamp
 * Create landing page 
 * Create Campgrounds showing page
 * Create new campground adding page
+
+
+
+## Acknowledgement:
+The project is built along with Colt Steele's course on Udemy 
