@@ -1,5 +1,5 @@
 # [YelpCamp](https://warm-retreat-17606.herokuapp.com/)
-A website where users can create accounts and log in to create, modify, and delete new campgrounds as well as those activities for reviews.  
+A website where users can create accounts and log in to create, modify, and delete new campgrounds as well as to conduct those actions for reviews.  
 
 
 
