@@ -15,10 +15,10 @@ var campgroundSchema = new mongoose.Schema({
         },
         username: String
     },
-    comments: [{
+    comments: {
         type: mongoose.Schema.Types.ObjectId,
         ref: "Comment"
-    }]
+    }
 })
 
 module.exports = mongoose.model("Campground", campgroundSchema)
