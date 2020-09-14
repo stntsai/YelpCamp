@@ -2,7 +2,7 @@ var express = require("express")
 var router = express.Router()
 var Campground = require("../models/campground")
 var middleware = require("../middleware")
-var NodeGeocoder = require('node-geocoder');
+var NodeGeocoder = require('node-geocoder'); //for Google Maps
  
 var options = {
     provider: 'google',
@@ -15,6 +15,7 @@ var geocoder = NodeGeocoder(options);
 
 //show all campgrounds
 router.get("/", function(req, res) {
+    //Fuzzy search route   
     var noMatch = null
     if(req.query.search){
         const regex = new RegExp(escapeRegex(req.query.search), 'gi');
